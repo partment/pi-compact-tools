@@ -176,10 +176,9 @@ function rememberResult(state: RowState, result: AgentToolResult<unknown>, optio
 	state.lastResultPalette = paletteOf(theme);
 }
 
-function renderControls(
+function renderCompletion(
 	theme: Theme,
 	state: RowState,
-	running: boolean,
 	isError: boolean,
 	failureReason?: string,
 	changes?: { added: number; removed: number },
@@ -187,25 +186,59 @@ function renderControls(
 	prefix = " └ ",
 	indent = "   ",
 ): Component {
-	const duration = running ? undefined : formatDuration(state);
-	const status = running
-		? (duration ?? "Running")
-		: `${isError ? "Failed" : "Done"}${duration ? ` in ${duration}` : ""}`;
+	const duration = formatDuration(state);
+	const status = `${isError ? "Failed" : "Done"}${duration ? ` in ${duration}` : ""}`;
 	// A failed row already reads as an error through its output color and Pi's row
 	// background, so completion metadata stays neutral rather than repeating that signal.
 	const chrome = chromePainter(theme);
-	const metadata = running ? chrome : completionPainter(theme);
+	const metadata = completionPainter(theme);
 	let details = metadata(status);
-	if (failureReason && isError && !running) details += chrome(" · ") + theme.fg("error", failureReason);
+	if (failureReason && isError) details += chrome(" · ") + theme.fg("error", failureReason);
 	// An edit reports what it changed the way a diff does: lines added and removed.
-	else if (changes && !running && !isError) {
+	else if (changes && !isError) {
 		details += chrome(" (") + theme.fg("toolDiffAdded", `+${changes.added}`) + chrome(" ")
 			+ theme.fg("toolDiffRemoved", `-${changes.removed}`) + chrome(")");
 	}
 	// A failed call produced no result worth counting; "(0 lines)" would only mislead.
-	else if (state.resultLineSummary && !running && !isError) details += metadata(` (${state.resultLineSummary})`);
-	if (nestedSummary && !running) details += chrome(" · ") + nestedSummary;
+	else if (state.resultLineSummary && !isError) details += metadata(` (${state.resultLineSummary})`);
+	if (nestedSummary) details += chrome(" · ") + nestedSummary;
 	return nestedSummary ? prefixedSentence(details, chrome(prefix), indent, true) : prefixedText(details, chrome(prefix), indent);
+}
+
+/** Use the existing indicator frames to update the status even with no output yet. */
+function withRunningStatus(body: Component, theme: Theme, ctx: RenderContext, beforeResult = false): Component {
+	const chrome = chromePainter(theme);
+	const state = ctx.state;
+	let shownSeconds: number | undefined;
+	let footer: Component;
+	let cachedBody: string[];
+	let cachedFooter: string[];
+	let cachedLines: string[];
+	return {
+		render(width) {
+			const lines = body.render(width);
+			if (beforeResult && state.lastResultPartial) return lines;
+			const seconds = ctx.executionStarted && state.startedAt !== undefined && callStatus(ctx, state) === "running"
+				? Math.max(0, Math.floor((Date.now() - state.startedAt) / 1000)) : 0;
+			if (beforeResult && seconds === 0) return lines;
+			if (shownSeconds !== seconds) {
+				shownSeconds = seconds;
+				const duration = seconds < 60 ? `${seconds}s` : formatDurationMs(seconds * 1000);
+				footer = prefixedText(chrome(seconds > 0 ? `Running · ${duration}` : "Running"), chrome(" └ "), "   ");
+			}
+			const footerLines = footer.render(width);
+			if (cachedBody !== lines || cachedFooter !== footerLines) {
+				cachedBody = lines;
+				cachedFooter = footerLines;
+				cachedLines = lines.concat(footerLines);
+			}
+			return cachedLines;
+		},
+		invalidate() {
+			body.invalidate();
+			shownSeconds = undefined;
+		},
+	};
 }
 
 /** Arguments a one-line summary cannot show: objects, or lists of them. */
@@ -254,7 +287,8 @@ function renderRowCallContent(name: string, args: ToolArgs, theme: Theme, ctx: R
 	const container = new LiveCallContainer(indicator, (dot) => renderToolCall(dot + title, details, theme));
 	const extra = kind === "file" ? getArgumentDetails(name, args) : kind === "custom" && state.expanded ? args : {};
 	if (Object.keys(extra).length > 0) container.addChild(renderArguments(extra, theme));
-	return new WithinWidth(container);
+	// Pi only draws the call until a partial result arrives.
+	return new WithinWidth(ctx.executionStarted && ctx.isPartial ? withRunningStatus(container, theme, ctx, true) : container);
 }
 
 /**
@@ -443,11 +477,11 @@ function renderRowResult(
 		component = renderCodexResult({
 			name, kind: author ? "custom" : kind, args: ctx.args, result, output, theme, state, isError: ctx.isError,
 			isPartial: options.isPartial, expanded: state.expanded === true, toolCallId: ctx.toolCallId, author, expandKey: toolExpandKey(ctx),
-			completion: nestedSummary ? renderControls(theme, state, false, ctx.isError, undefined, undefined, nestedSummary, CODEX_INDENT, CODEX_INDENT) : undefined,
+			completion: nestedSummary ? renderCompletion(theme, state, ctx.isError, undefined, undefined, nestedSummary, CODEX_INDENT, CODEX_INDENT) : undefined,
 		});
 	} else if (isClaude()) {
 		const container = new CachedContainer();
-		const completion = nestedSummary ? renderControls(theme, state, false, ctx.isError, undefined, undefined, nestedSummary, CLAUDE_INDENT, CLAUDE_INDENT) : undefined;
+		const completion = nestedSummary ? renderCompletion(theme, state, ctx.isError, undefined, undefined, nestedSummary, CLAUDE_INDENT, CLAUDE_INDENT) : undefined;
 		container.addChild(renderClaudeResult(name, ctx.args, result, options, theme, ctx.isError, state.expanded === true, output, author, completion, toolExpandKey(ctx)));
 		component = new WithinWidth(container);
 	} else {
@@ -461,12 +495,15 @@ function renderRowResult(
 			const body = renderRowBody(name, ctx.args, result, output, state.expanded === true, theme, ctx.isError, author);
 			if (body) container.addChild(state.expanded ? body : limitComponentLines(body, runtime.config.previewLines, theme));
 		}
-		// A failed row whose output is hidden gets its reason on the status line. When
-		// the output shows, it already says why, and repeating it only doubles the error.
-		const failureReason = ctx.isError && !state.expanded && !state.preview ? summarizeFailure(name, output) : undefined;
-		container.addChild(renderControls(theme, state, options.isPartial, ctx.isError, failureReason,
-			name === "edit" ? countEditChanges(result) : undefined, nestedSummary));
-		component = new WithinWidth(container);
+		if (options.isPartial) {
+			component = new WithinWidth(withRunningStatus(container, theme, ctx));
+		} else {
+			// Show a failure reason here only when the output itself is hidden.
+			const failureReason = ctx.isError && !state.expanded && !state.preview ? summarizeFailure(name, output) : undefined;
+			container.addChild(renderCompletion(theme, state, ctx.isError, failureReason,
+				name === "edit" ? countEditChanges(result) : undefined, nestedSummary));
+			component = new WithinWidth(container);
+		}
 	}
 	rememberResult(state, result, options, ctx.isError, theme);
 	state.lastResultDurationMs = state.durationMs;

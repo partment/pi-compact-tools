@@ -10,6 +10,41 @@ import { timerClock } from "./indicator-harness.ts";
 const plain = (lines: string[]) => lines.map((line) => line.replace(/\x1b\[[0-9;]*m/gu, "")).join("\n");
 let sequence = 0;
 
+test("Compact shows running time before any output and keeps one timer below partial output", async () => {
+	const harness = await loadExtension({ style: "compact" }, { tui: true, idle: false });
+	try {
+		for (const name of ["bash", "codemode"]) {
+			const id = `live-${name}-${++sequence}`;
+			const args = name === "bash" ? { command: "sleep 2" } : { code: "text('done')" };
+			announce(harness, id, name, args);
+			const row = makeRow(name, id, args, harness.definitions.get(name));
+			advance(5_000);
+			assert.doesNotMatch(plain(row.render(100)), /Running ·/u);
+			row.setArgsComplete();
+			harness.handlers.get("tool_execution_start")!({ toolCallId: id, toolName: name, args });
+			row.markExecutionStarted();
+			row.render(100);
+			advance(1_000);
+			const renders = harness.requestRenders();
+			animate([row], 1, 100, (lines) => assert.match(plain(lines), /└ Running · 1s$/mu));
+			assert.ok(harness.requestRenders() > renders, "a quiet tool still gets a redraw");
+			row.updateResult({ ...text("partial output"), isError: false } as never, true);
+			advance(1_125);
+			animate([row], 1, 100, (lines) => {
+				assert.deepEqual(plain(lines).match(/└ Running.*$/gmu), ["└ Running · 2s"]);
+			});
+			harness.handlers.get("tool_execution_end")!({ toolCallId: id, toolName: name, isError: false });
+			row.updateResult({ ...text("done"), isError: false } as never);
+			advance(1_000);
+			const done = plain(row.render(100));
+			assert.match(done, /└ Done in 2\.125s/u);
+			assert.doesNotMatch(done, /└ Running/u);
+		}
+	} finally {
+		shutdown(harness);
+	}
+});
+
 // Claude Code draws no time on a row; its groups show time, tested below.
 test("a long-streamed call is timed from when it runs", async () => {
 	const harness = await loadExtension({ style: "compact", auto_compact: { write: true } }, { tui: true, idle: false });

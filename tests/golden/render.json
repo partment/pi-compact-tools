@@ -1,19 +1,19 @@
 {
 	"compact/read/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
@@ -106,19 +106,19 @@
 	],
 	"compact/read@offset/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read@offset/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read@offset/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read@offset/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/read@offset/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
@@ -164,11 +164,11 @@
 	],
 	"compact/write/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/write/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/write/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -187,7 +187,7 @@
 		"{174;210;123} │ {/}{toolDiffContext} 13 {/}{toolOutput}line 13{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 14 {/}{toolOutput}line 14{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 15 {/}{toolOutput}line 15{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/write/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -206,7 +206,7 @@
 		"{174;210;123} │ {/}{toolDiffContext} 13 {/}{toolOutput}line 13{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 14 {/}{toolOutput}line 14{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 15 {/}{toolOutput}line 15{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/write/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -276,19 +276,19 @@
 	],
 	"compact/edit/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
@@ -398,19 +398,19 @@
 	],
 	"compact/edit@large/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit@large/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit@large/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit@large/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/edit@large/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
@@ -554,25 +554,25 @@
 	],
 	"compact/bash/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run tests{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run tests{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}npm test{/}",
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}npm test{/}",
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run tests{/}",
@@ -670,19 +670,19 @@
 	],
 	"compact/bash@quiet/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@quiet/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@quiet/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@quiet/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@quiet/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
@@ -723,24 +723,24 @@
 	],
 	"compact/bash@wide/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more steps{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@wide/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more ",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}steps{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@wide/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}cat package.json | jq '.scripts' && echo 'a very long command that keeps going well past t",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}he edge of a narrow terminal'{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@wide/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}cat package.json | jq '.scripts' &",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}& echo 'a very long command that keeps go",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ing well past the edge of a narrow termin",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}al'{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@wide/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more steps{/}",
@@ -806,19 +806,19 @@
 	],
 	"compact/bash@four/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@four/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@four/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}seq 1 4{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@four/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}seq 1 4{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/bash@four/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
@@ -867,21 +867,21 @@
 	],
 	"compact/powershell/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more step{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/powershell/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more st",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ep{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/powershell/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}Get-ChildItem -Path src | Select-Object Name{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/powershell/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}Get-ChildItem -Path src | Se",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}lect-Object Name{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/powershell/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more step{/}",
@@ -934,19 +934,19 @@
 	],
 	"compact/grep/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/grep/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/grep/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/grep/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/grep/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
@@ -989,19 +989,19 @@
 	],
 	"compact/find/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/find/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/find/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/find/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/find/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
@@ -1045,19 +1045,19 @@
 	],
 	"compact/ls/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/ls/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/ls/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/ls/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/ls/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
@@ -1101,11 +1101,11 @@
 	],
 	"compact/custom:web_search/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:web_search/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:web_search/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -1113,7 +1113,7 @@
 		"{174;210;123} │ {/}{toolOutput}  \"query\": \"pi tui\",{/}",
 		"{174;210;123} │ {/}{toolOutput}  \"limit\": 3{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:web_search/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -1121,7 +1121,7 @@
 		"{174;210;123} │ {/}{toolOutput}  \"query\": \"pi tui\",{/}",
 		"{174;210;123} │ {/}{toolOutput}  \"limit\": 3{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:web_search/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -1190,12 +1190,12 @@
 	],
 	"compact/custom:fetch@author/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:fetch@author/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.exam",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ple{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:fetch@author/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
@@ -1209,7 +1209,7 @@
 		"{174;210;123} │ {/}{toolOutput}  }{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
 		"{174;210;123} │ {/}AUTHOR full: ",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:fetch@author/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.exam",
@@ -1224,7 +1224,7 @@
 		"{174;210;123} │ {/}{toolOutput}  }{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
 		"{174;210;123} │ {/}AUTHOR full: ",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"compact/custom:fetch@author/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
@@ -1304,19 +1304,19 @@
 	],
 	"preview/read/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
@@ -1433,19 +1433,19 @@
 	],
 	"preview/read@offset/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read@offset/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read@offset/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read@offset/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/read@offset/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}read{/b}{/} {toolOutput}src/app.ts{/}",
@@ -1510,7 +1510,7 @@
 		"{174;210;123} │ {/}{toolDiffContext}  9 {/}{toolOutput}line 9{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 10 {/}{toolOutput}line 10{/}",
 		"{174;210;123} │ {/}{toolOutput}… 5 more lines{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/write/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -1525,7 +1525,7 @@
 		"{174;210;123} │ {/}{toolDiffContext}  9 {/}{toolOutput}line 9{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 10 {/}{toolOutput}line 10{/}",
 		"{174;210;123} │ {/}{toolOutput}… 5 more lines{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/write/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -1544,7 +1544,7 @@
 		"{174;210;123} │ {/}{toolDiffContext} 13 {/}{toolOutput}line 13{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 14 {/}{toolOutput}line 14{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 15 {/}{toolOutput}line 15{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/write/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -1563,7 +1563,7 @@
 		"{174;210;123} │ {/}{toolDiffContext} 13 {/}{toolOutput}line 13{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 14 {/}{toolOutput}line 14{/}",
 		"{174;210;123} │ {/}{toolDiffContext} 15 {/}{toolOutput}line 15{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/write/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}write{/b}{/} {toolOutput}notes.md{/}",
@@ -1657,19 +1657,19 @@
 	],
 	"preview/edit/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}app.ts{/}",
@@ -1779,19 +1779,19 @@
 	],
 	"preview/edit@large/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit@large/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit@large/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit@large/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/edit@large/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}edit{/b}{/} {toolOutput}big.txt{/}",
@@ -1938,28 +1938,28 @@
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run tests{/}",
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}npm test{/}",
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}npm test{/}",
 		"{174;210;123} │ {/}{toolOutput}> test{/}",
 		"{174;210;123} │ {/}{toolOutput}> node --test{/}",
 		"{174;210;123} │ {/}{toolOutput}ok 1{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run tests{/}",
@@ -2087,19 +2087,19 @@
 	],
 	"preview/bash@quiet/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@quiet/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@quiet/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@quiet/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}true{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@quiet/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run true{/}",
@@ -2143,24 +2143,24 @@
 	],
 	"preview/bash@wide/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more steps{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@wide/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more ",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}steps{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@wide/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}cat package.json | jq '.scripts' && echo 'a very long command that keeps going well past t",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}he edge of a narrow terminal'{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@wide/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}cat package.json | jq '.scripts' &",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}& echo 'a very long command that keeps go",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ing well past the edge of a narrow termin",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}al'{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@wide/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Read file \"package.json\" + 2 more steps{/}",
@@ -2240,19 +2240,19 @@
 	],
 	"preview/bash@four/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@four/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@four/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}seq 1 4{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@four/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}seq 1 4{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/bash@four/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}bash{/b}{/} {toolOutput}Run seq{/}",
@@ -2312,21 +2312,21 @@
 	],
 	"preview/powershell/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more step{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/powershell/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more st",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ep{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/powershell/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}Get-ChildItem -Path src | Select-Object Name{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/powershell/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}Get-ChildItem -Path src | Se",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}lect-Object Name{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/powershell/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}powershell{/b}{/} {toolOutput}List files \"src\" + 1 more step{/}",
@@ -2390,19 +2390,19 @@
 	],
 	"preview/grep/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/grep/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/grep/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/grep/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/grep/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}grep{/b}{/} {toolOutput}/TODO/ in src{/}",
@@ -2450,19 +2450,19 @@
 	],
 	"preview/find/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/find/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/find/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/find/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/find/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}find{/b}{/} {toolOutput}*.ts in src{/}",
@@ -2514,19 +2514,19 @@
 	],
 	"preview/ls/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/ls/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/ls/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/ls/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/ls/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}ls{/b}{/} {toolOutput}src{/}",
@@ -2578,11 +2578,11 @@
 	],
 	"preview/custom:web_search/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:web_search/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:web_search/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -2590,7 +2590,7 @@
 		"{174;210;123} │ {/}{toolOutput}  \"query\": \"pi tui\",{/}",
 		"{174;210;123} │ {/}{toolOutput}  \"limit\": 3{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:web_search/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -2598,7 +2598,7 @@
 		"{174;210;123} │ {/}{toolOutput}  \"query\": \"pi tui\",{/}",
 		"{174;210;123} │ {/}{toolOutput}  \"limit\": 3{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:web_search/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}web_search{/b}{/} {toolOutput}pi tui{/}",
@@ -2667,12 +2667,12 @@
 	],
 	"preview/custom:fetch@author/running/closed/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:fetch@author/running/closed/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.exam",
 		"{174;210;123} │ {/}{134;73;167}{/}{toolTitle}{b}{/b}{/}{toolOutput}ple{/}",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:fetch@author/running/open/100": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
@@ -2686,7 +2686,7 @@
 		"{174;210;123} │ {/}{toolOutput}  }{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
 		"{174;210;123} │ {/}AUTHOR full: ",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:fetch@author/running/open/44": [
 		" {134;73;167}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.exam",
@@ -2701,7 +2701,7 @@
 		"{174;210;123} │ {/}{toolOutput}  }{/}",
 		"{174;210;123} │ {/}{toolOutput}}{/}",
 		"{174;210;123} │ {/}AUTHOR full: ",
-		"{174;210;123} └ {/}{174;210;123}Running{/}"
+		"{174;210;123} └ {/}{174;210;123}Running · 1s{/}"
 	],
 	"preview/custom:fetch@author/done/closed/100": [
 		" {success}⦁{/} {toolTitle}{b}fetch{/b}{/} {toolOutput}https://a.example, https://b.example{/}",
